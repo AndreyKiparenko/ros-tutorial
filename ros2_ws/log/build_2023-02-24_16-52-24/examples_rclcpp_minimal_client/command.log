@@ -1,0 +1,4 @@
+Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client
+Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_client
