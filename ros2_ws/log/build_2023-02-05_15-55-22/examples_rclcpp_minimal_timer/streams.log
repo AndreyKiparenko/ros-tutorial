@@ -1,0 +1,84 @@
+[0.104s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer
+[1.570s] -- The C compiler identification is GNU 9.4.0
+[1.571s] -- The CXX compiler identification is GNU 9.4.0
+[1.572s] -- Check for working C compiler: /usr/bin/cc
+[1.572s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.573s] -- Detecting C compiler ABI info
+[1.573s] -- Detecting C compiler ABI info - done
+[1.573s] -- Detecting C compile features
+[1.573s] -- Detecting C compile features - done
+[1.573s] -- Check for working CXX compiler: /usr/bin/c++
+[1.573s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.573s] -- Detecting CXX compiler ABI info
+[1.573s] -- Detecting CXX compiler ABI info - done
+[1.573s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.573s] -- Found ament_cmake: 0.9.11 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[1.573s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.573s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.574s] -- Found rclcpp: 2.4.2 (/home/msurkip/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[1.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.574s] -- Found rosidl_adapter: 1.3.0 (/home/msurkip/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[1.574s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[1.574s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[1.574s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.574s] -- Found FastRTPS: /home/msurkip/ros2_foxy/ros2-linux/include  
+[1.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found rmw_implementation_cmake: 1.0.3 (/home/msurkip/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[1.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.574s] -- Looking for pthread.h
+[1.574s] -- Looking for pthread.h - found
+[1.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.574s] -- Looking for pthread_create in pthreads
+[1.574s] -- Looking for pthread_create in pthreads - not found
+[1.574s] -- Looking for pthread_create in pthread
+[1.574s] -- Looking for pthread_create in pthread - found
+[1.574s] -- Found Threads: TRUE  
+[1.574s] -- Found ament_lint_auto: 0.9.7 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[1.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.574s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.574s] -- Configured cppcheck include dirs: 
+[1.574s] -- Configured cppcheck exclude dirs and/or files: 
+[1.574s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.574s] -- Configured cpplint exclude dirs and/or files: 
+[1.575s] -- Added test 'lint_cmake' to check CMake code style
+[1.575s] -- Added test 'uncrustify' to check C / C++ code style
+[1.575s] -- Configured uncrustify additional arguments: 
+[1.575s] -- Added test 'xmllint' to check XML markup files
+[1.575s] -- Configuring done
+[1.575s] -- Generating done
+[1.575s] -- Build files have been written to: /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer
+[1.575s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer
+[1.576s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[1.749s] [35m[1mScanning dependencies of target timer_member_function[0m
+[1.749s] [35m[1mScanning dependencies of target timer_lambda[0m
+[1.749s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[1.756s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[5.230s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[5.385s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[5.609s] [100%] Built target timer_lambda
+[5.678s] [100%] Built target timer_member_function
+[5.714s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[6.142s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer
+[6.531s] -- Install configuration: ""
+[6.531s] -- Execute custom install script
+[6.531s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[6.531s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[6.533s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[6.534s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[6.534s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[6.534s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[6.535s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[6.550s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[6.570s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[6.616s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_timer

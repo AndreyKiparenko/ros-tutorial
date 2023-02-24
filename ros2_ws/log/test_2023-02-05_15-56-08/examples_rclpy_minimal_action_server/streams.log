@@ -1,0 +1,7 @@
+[0.786s] Invoking command in '/home/msurkip/ros2_ws/src/examples/rclpy/actions/minimal_action_server': AMENT_PREFIX_PATH=/home/msurkip/ros2_ws/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTHONPATH=/home/msurkip/ros2_ws/build/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[1.041s] 
+[1.042s] ----------------------------------------------------------------------
+[1.042s] Ran 0 tests in 0.000s
+[1.042s] 
+[1.042s] OK
+[1.321s] Invoked command in '/home/msurkip/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': AMENT_PREFIX_PATH=/home/msurkip/ros2_ws/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTHONPATH=/home/msurkip/ros2_ws/build/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v

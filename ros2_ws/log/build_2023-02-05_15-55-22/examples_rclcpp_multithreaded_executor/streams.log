@@ -1,0 +1,80 @@
+[0.121s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.370s] -- The C compiler identification is GNU 9.4.0
+[0.480s] -- The CXX compiler identification is GNU 9.4.0
+[0.484s] -- Check for working C compiler: /usr/bin/cc
+[0.722s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.723s] -- Detecting C compiler ABI info
+[0.920s] -- Detecting C compiler ABI info - done
+[0.930s] -- Detecting C compile features
+[0.931s] -- Detecting C compile features - done
+[0.933s] -- Check for working CXX compiler: /usr/bin/c++
+[1.244s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.245s] -- Detecting CXX compiler ABI info
+[1.471s] -- Detecting CXX compiler ABI info - done
+[1.480s] -- Detecting CXX compile features
+[1.480s] -- Detecting CXX compile features - done
+[1.482s] -- Found ament_cmake: 0.9.11 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[1.519s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.679s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.708s] -- Found rclcpp: 2.4.2 (/home/msurkip/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[1.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.757s] -- Found rosidl_adapter: 1.3.0 (/home/msurkip/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[1.773s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[1.795s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[1.958s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.993s] -- Found FastRTPS: /home/msurkip/ros2_foxy/ros2-linux/include  
+[2.086s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.141s] -- Found rmw_implementation_cmake: 1.0.3 (/home/msurkip/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[2.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.143s] -- Looking for pthread.h
+[2.227s] -- Looking for pthread.h - found
+[2.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.318s] -- Looking for pthread_create in pthreads
+[2.412s] -- Looking for pthread_create in pthreads - not found
+[2.413s] -- Looking for pthread_create in pthread
+[2.530s] -- Looking for pthread_create in pthread - found
+[2.531s] -- Found Threads: TRUE  
+[2.598s] -- Found std_msgs: 2.0.5 (/home/msurkip/ros2_foxy/ros2-linux/share/std_msgs/cmake)
+[2.615s] -- Found ament_lint_auto: 0.9.7 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[2.691s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.692s] -- Configured cppcheck include dirs: 
+[2.692s] -- Configured cppcheck exclude dirs and/or files: 
+[2.695s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.695s] -- Configured cpplint exclude dirs and/or files: 
+[2.696s] -- Added test 'lint_cmake' to check CMake code style
+[2.697s] -- Added test 'uncrustify' to check C / C++ code style
+[2.697s] -- Configured uncrustify additional arguments: 
+[2.697s] -- Added test 'xmllint' to check XML markup files
+[2.701s] -- Configuring done
+[2.711s] -- Generating done
+[2.711s] -- Build files have been written to: /home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[2.954s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[2.960s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[3.003s] [35m[1mScanning dependencies of target multithreaded_executor[0m
+[3.033s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[6.684s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[6.938s] [100%] Built target multithreaded_executor
+[6.967s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[7.030s] Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[7.049s] -- Install configuration: ""
+[7.050s] -- Execute custom install script
+[7.051s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[7.072s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[7.095s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[7.117s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[7.137s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[7.157s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[7.175s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[7.196s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[7.214s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[7.233s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[7.251s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[7.270s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[7.292s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[7.312s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[7.331s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[7.351s] -- Symlinking: /home/msurkip/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[7.379s] Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_service:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/msurkip/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/msurkip/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_multithreaded_executor

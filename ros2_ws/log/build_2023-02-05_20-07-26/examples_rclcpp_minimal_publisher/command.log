@@ -1,0 +1,6 @@
+Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_minimal_publisher
+Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake /home/msurkip/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/examples_rclcpp_minimal_publisher
+Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+Invoking command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher
+Invoked command in '/home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/examples_rclcpp_minimal_publisher

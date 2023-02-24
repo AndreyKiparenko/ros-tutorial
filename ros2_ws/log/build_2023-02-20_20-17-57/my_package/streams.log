@@ -1,0 +1,58 @@
+[0.036s] Invoking command in '/home/msurkip/ros2_ws/build/my_package': /usr/bin/cmake /home/msurkip/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/my_package
+[0.223s] -- The C compiler identification is GNU 9.4.0
+[0.465s] -- The CXX compiler identification is GNU 9.4.0
+[0.492s] -- Check for working C compiler: /usr/bin/cc
+[0.620s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.622s] -- Detecting C compiler ABI info
+[0.745s] -- Detecting C compiler ABI info - done
+[0.760s] -- Detecting C compile features
+[0.763s] -- Detecting C compile features - done
+[0.778s] -- Check for working CXX compiler: /usr/bin/c++
+[0.935s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.936s] -- Detecting CXX compiler ABI info
+[1.075s] -- Detecting CXX compiler ABI info - done
+[1.079s] -- Detecting CXX compile features
+[1.080s] -- Detecting CXX compile features - done
+[1.122s] -- Found ament_cmake: 0.9.11 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[1.175s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.175s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.513s] -- Found ament_lint_auto: 0.9.7 (/home/msurkip/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[1.708s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.713s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.713s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/msurkip/ros2_ws/src/my_package/include>
+[1.713s] -- Configured cppcheck exclude dirs and/or files: 
+[1.715s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.715s] -- Configured cpplint exclude dirs and/or files: 
+[1.719s] -- Added test 'lint_cmake' to check CMake code style
+[1.725s] -- Added test 'uncrustify' to check C / C++ code style
+[1.725s] -- Configured uncrustify additional arguments: 
+[1.727s] -- Added test 'xmllint' to check XML markup files
+[1.740s] -- Configuring done
+[1.751s] -- Generating done
+[1.753s] -- Build files have been written to: /home/msurkip/ros2_ws/build/my_package
+[1.760s] Invoked command in '/home/msurkip/ros2_ws/build/my_package' returned '0': /usr/bin/cmake /home/msurkip/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/my_package
+[1.767s] Invoking command in '/home/msurkip/ros2_ws/build/my_package': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/my_package -- -j8 -l8
+[1.855s] [35m[1mScanning dependencies of target my_node[0m
+[1.892s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.013s] [100%] [32m[1mLinking CXX executable my_node[0m
+[2.109s] [100%] Built target my_node
+[2.133s] Invoked command in '/home/msurkip/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/my_package -- -j8 -l8
+[2.199s] Invoking command in '/home/msurkip/ros2_ws/build/my_package': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/my_package
+[2.217s] -- Install configuration: ""
+[2.218s] -- Installing: /home/msurkip/ros2_ws/install/my_package/lib/my_package/my_node
+[2.218s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.219s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.221s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.221s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.222s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.223s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.223s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.223s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.223s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.224s] -- Installing: /home/msurkip/ros2_ws/install/my_package/share/my_package/package.xml
+[2.234s] Invoked command in '/home/msurkip/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/my_package
