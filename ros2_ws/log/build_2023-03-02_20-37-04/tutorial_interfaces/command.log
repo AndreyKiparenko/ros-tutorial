@@ -1,0 +1,6 @@
+Invoking command in '/home/msurkip/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake /home/msurkip/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/tutorial_interfaces
+Invoked command in '/home/msurkip/ros2_ws/build/tutorial_interfaces' returned '0': /usr/bin/cmake /home/msurkip/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/msurkip/ros2_ws/install/tutorial_interfaces
+Invoking command in '/home/msurkip/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+Invoked command in '/home/msurkip/ros2_ws/build/tutorial_interfaces' returned '0': /usr/bin/cmake --build /home/msurkip/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+Invoking command in '/home/msurkip/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/tutorial_interfaces
+Invoked command in '/home/msurkip/ros2_ws/build/tutorial_interfaces' returned '0': /usr/bin/cmake --install /home/msurkip/ros2_ws/build/tutorial_interfaces
